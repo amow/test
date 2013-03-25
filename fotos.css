@@ -1,0 +1,54 @@
+
+body{
+	font: 14px/22px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#portfolio{
+	width: 1200px;
+	margin: 0 auto 0 auto;
+	padding: 0 0 30px 0;
+}
+
+#portfolio .col {
+	float: left;
+	padding: 0;
+	margin: 0 10px 20px 10px;
+}
+
+div.portfolio_item {
+position: relative;
+line-height: 0;
+}
+
+div.portfolio_item .details a {
+	color: #fff;
+	text-decoration: none; 
+}
+
+div.portfolio_item .details {
+	position: absolute;
+	overflow: hidden;
+	white-space: nowrap;
+	bottom: 0px;
+	color: #fff;
+	background: #000;
+	background: rgba(0,0,0,0.65);
+	width: 100%;
+	height: 40px;
+}
+
+div.portfolio_item .details .title {
+	width: 200px;
+	font-size: 15px;
+	line-height: 20px;
+	height: 23px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	position: absolute;
+	top: 6px;
+	left: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+}
+
